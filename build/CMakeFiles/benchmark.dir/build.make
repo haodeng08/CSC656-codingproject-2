@@ -53,10 +53,10 @@ RM = /opt/homebrew/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/haolongdeng/sum_harness_instructional
+CMAKE_SOURCE_DIR = /Users/haolongdeng/CSC656-codingproject-2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/haolongdeng/sum_harness_instructional/build
+CMAKE_BINARY_DIR = /Users/haolongdeng/CSC656-codingproject-2/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/benchmark.dir/depend.make
@@ -73,18 +73,18 @@ CMakeFiles/benchmark.dir/codegen:
 .PHONY : CMakeFiles/benchmark.dir/codegen
 
 CMakeFiles/benchmark.dir/benchmark.cpp.o: CMakeFiles/benchmark.dir/flags.make
-CMakeFiles/benchmark.dir/benchmark.cpp.o: /Users/haolongdeng/sum_harness_instructional/benchmark.cpp
+CMakeFiles/benchmark.dir/benchmark.cpp.o: /Users/haolongdeng/CSC656-codingproject-2/benchmark.cpp
 CMakeFiles/benchmark.dir/benchmark.cpp.o: CMakeFiles/benchmark.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haolongdeng/sum_harness_instructional/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/benchmark.dir/benchmark.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/benchmark.dir/benchmark.cpp.o -MF CMakeFiles/benchmark.dir/benchmark.cpp.o.d -o CMakeFiles/benchmark.dir/benchmark.cpp.o -c /Users/haolongdeng/sum_harness_instructional/benchmark.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/haolongdeng/CSC656-codingproject-2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/benchmark.dir/benchmark.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/benchmark.dir/benchmark.cpp.o -MF CMakeFiles/benchmark.dir/benchmark.cpp.o.d -o CMakeFiles/benchmark.dir/benchmark.cpp.o -c /Users/haolongdeng/CSC656-codingproject-2/benchmark.cpp
 
 CMakeFiles/benchmark.dir/benchmark.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/benchmark.dir/benchmark.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/haolongdeng/sum_harness_instructional/benchmark.cpp > CMakeFiles/benchmark.dir/benchmark.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/haolongdeng/CSC656-codingproject-2/benchmark.cpp > CMakeFiles/benchmark.dir/benchmark.cpp.i
 
 CMakeFiles/benchmark.dir/benchmark.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/benchmark.dir/benchmark.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haolongdeng/sum_harness_instructional/benchmark.cpp -o CMakeFiles/benchmark.dir/benchmark.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/haolongdeng/CSC656-codingproject-2/benchmark.cpp -o CMakeFiles/benchmark.dir/benchmark.cpp.s
 
 benchmark: CMakeFiles/benchmark.dir/benchmark.cpp.o
 benchmark: CMakeFiles/benchmark.dir/build.make
@@ -99,6 +99,6 @@ CMakeFiles/benchmark.dir/clean:
 .PHONY : CMakeFiles/benchmark.dir/clean
 
 CMakeFiles/benchmark.dir/depend:
-	cd /Users/haolongdeng/sum_harness_instructional/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/haolongdeng/sum_harness_instructional /Users/haolongdeng/sum_harness_instructional /Users/haolongdeng/sum_harness_instructional/build /Users/haolongdeng/sum_harness_instructional/build /Users/haolongdeng/sum_harness_instructional/build/CMakeFiles/benchmark.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/haolongdeng/CSC656-codingproject-2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/haolongdeng/CSC656-codingproject-2 /Users/haolongdeng/CSC656-codingproject-2 /Users/haolongdeng/CSC656-codingproject-2/build /Users/haolongdeng/CSC656-codingproject-2/build /Users/haolongdeng/CSC656-codingproject-2/build/CMakeFiles/benchmark.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/benchmark.dir/depend
 

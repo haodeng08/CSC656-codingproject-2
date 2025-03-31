@@ -1,3 +1,7 @@
+// Haolong Deng
+// CSC 656-01
+// Coding Project #2
+
 #include <algorithm>
 #include <chrono>
 #include <iomanip>
@@ -9,7 +13,7 @@
 #include "sums.h"
 
 // Global array for indices
-static std::vector<int64_t> indices;
+static int64_t* indices = nullptr;
 
 void 
 setup(int64_t N, double A[])
@@ -18,13 +22,16 @@ setup(int64_t N, double A[])
    
    // Fill A[] with values from 0 to N-1
    for (int64_t i = 0; i < N; i++) {
-       A[i] = (double)i;
+       A[i] = i;
    }
-   
-   // Initialize and fill indices array with random values in range 0..N-1
-   indices.resize(N);
-   for (int64_t i = 0; i < N; i++) {
-       indices[i] = lrand48() % N;  // Using lrand48() as specified in the assignment
+
+
+    // Allocate new memory
+    indices = new int64_t[N];
+  
+    // Initialize and fill indices array with random values in range 0..N-1
+    for (int64_t i = 0; i < N; i++) {
+       indices[i] = lrand48() % N; 
    }
 }
 

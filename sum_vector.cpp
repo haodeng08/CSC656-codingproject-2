@@ -1,3 +1,7 @@
+// Haolong Deng
+// CSC 656-01
+// Coding Project #2
+
 #include <algorithm>
 #include <chrono>
 #include <iomanip>
@@ -15,7 +19,7 @@ setup(int64_t N, double A[])
    
    // Initialize array A with values from 0 to N-1
    for (int64_t i = 0; i < N; i++) {
-       A[i] = (double)i;
+       A[i] = i;
    }
 }
 
@@ -24,12 +28,12 @@ sum(int64_t N, double A[])
 {
    printf(" inside sum_vector perform_sum, N=%lld \n", N);
    
-   double result = 0.0;
+   double sum = 0.0;
    
-   // Sum all elements in the array sequentially
+   // Sum all elements in the array 
    for (int64_t i = 0; i < N; i++) {
-       result += A[i];
+       sum += A[i];
    }
    
-   return result;
+   return sum;
 }

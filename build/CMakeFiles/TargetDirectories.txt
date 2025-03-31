@@ -1,6 +1,6 @@
-/Users/haolongdeng/sum_harness_instructional/build/CMakeFiles/benchmark.dir
-/Users/haolongdeng/sum_harness_instructional/build/CMakeFiles/sum_direct.dir
-/Users/haolongdeng/sum_harness_instructional/build/CMakeFiles/sum_vector.dir
-/Users/haolongdeng/sum_harness_instructional/build/CMakeFiles/sum_indirect.dir
-/Users/haolongdeng/sum_harness_instructional/build/CMakeFiles/edit_cache.dir
-/Users/haolongdeng/sum_harness_instructional/build/CMakeFiles/rebuild_cache.dir
+/Users/haolongdeng/CSC656-codingproject-2/build/CMakeFiles/benchmark.dir
+/Users/haolongdeng/CSC656-codingproject-2/build/CMakeFiles/sum_direct.dir
+/Users/haolongdeng/CSC656-codingproject-2/build/CMakeFiles/sum_vector.dir
+/Users/haolongdeng/CSC656-codingproject-2/build/CMakeFiles/sum_indirect.dir
+/Users/haolongdeng/CSC656-codingproject-2/build/CMakeFiles/edit_cache.dir
+/Users/haolongdeng/CSC656-codingproject-2/build/CMakeFiles/rebuild_cache.dir

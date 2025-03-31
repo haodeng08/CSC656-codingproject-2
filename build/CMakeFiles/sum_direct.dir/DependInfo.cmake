@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/haolongdeng/sum_harness_instructional/sum_direct.cpp" "CMakeFiles/sum_direct.dir/sum_direct.cpp.o" "gcc" "CMakeFiles/sum_direct.dir/sum_direct.cpp.o.d"
+  "/Users/haolongdeng/CSC656-codingproject-2/sum_direct.cpp" "CMakeFiles/sum_direct.dir/sum_direct.cpp.o" "gcc" "CMakeFiles/sum_direct.dir/sum_direct.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

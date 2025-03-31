@@ -1,5 +1,5 @@
 CMakeFiles/sum_indirect.dir/sum_indirect.cpp.o: \
-  /Users/haolongdeng/sum_harness_instructional/sum_indirect.cpp \
+  /Users/haolongdeng/CSC656-codingproject-2/sum_indirect.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/algorithm \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__config \
@@ -940,4 +940,4 @@ CMakeFiles/sum_indirect.dir/sum_indirect.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__random/seed_seq.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__random/student_t_distribution.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk/usr/include/c++/v1/__random/weibull_distribution.h \
-  /Users/haolongdeng/sum_harness_instructional/sums.h
+  /Users/haolongdeng/CSC656-codingproject-2/sums.h
