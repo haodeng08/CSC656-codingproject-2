@@ -18,7 +18,7 @@
 int main(int argc, char** argv) 
 {
    std::cout << std::fixed << std::setprecision(2);
-#define MAX_PROBLEM_SIZE 1 << 28  //  256M
+#define MAX_PROBLEM_SIZE 1 << 27  //  128M
    std::vector<int64_t> problem_sizes{ MAX_PROBLEM_SIZE >> 5, MAX_PROBLEM_SIZE >> 4, MAX_PROBLEM_SIZE >> 3, MAX_PROBLEM_SIZE >> 2, MAX_PROBLEM_SIZE >> 1, MAX_PROBLEM_SIZE};
    
    double *A = (double *)malloc(sizeof(double) * MAX_PROBLEM_SIZE);
